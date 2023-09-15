@@ -133,6 +133,8 @@ function HomePage() {
                 <div className="movie-content">
                   <p className="movie-title"> Title:{props.title}</p>
                   <p className="movie-release-date">release-date:{props.release_date}</p>
+                  <p>{props.vote_average}%</p>
+                  <p>{props.vote_count}</p>
 
                 </div>
               </div>
